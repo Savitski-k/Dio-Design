@@ -551,7 +551,6 @@ details[open] .faq-item-descr-text {
 
 .map {
     margin-top: 150px;
-    margin-bottom: 50px;
 }
 
 .map-item-map {
@@ -592,4 +591,43 @@ details[open] .faq-item-descr-text {
     font-size: 16px;
     line-height: 130%;
     color: #FFFFFF;
+}
+
+/* footer  */
+
+
+.footer {
+    background-color: #72758E;
+}
+
+
+.footer-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+.footer-descr-block {
+    width: 300px;
+}
+
+.footer-descr {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-link {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #e0e0e0;
 }
