@@ -632,6 +632,8 @@ details[open] .faq-item-descr-text {
 /* modal  */
 
 .modal {
+    opacity: 0;
+    visibility: hidden;
     position: fixed;
     z-index: 20;
     left: 0;
@@ -644,6 +646,11 @@ details[open] .faq-item-descr-text {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.modal--visible {
+    opacity: 1;
+    visibility: visible;
 }
 
 .modal__dialog {
