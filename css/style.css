@@ -548,7 +548,6 @@ details[open] .faq-item-descr-text {
 
 /* map  */
 
-
 .map {
     margin-top: 150px;
 }
@@ -595,11 +594,9 @@ details[open] .faq-item-descr-text {
 
 /* footer  */
 
-
 .footer {
     background-color: #72758E;
 }
-
 
 .footer-block {
     display: flex;
@@ -630,4 +627,117 @@ details[open] .faq-item-descr-text {
     line-height: 16px;
     text-align: center;
     color: #e0e0e0;
+}
+
+/* modal  */
+
+.modal {
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__dialog {
+    position: relative;
+    max-width: 36.36rem;
+    background: #72758E;
+    padding: 2.357rem 3.5rem 1.928rem;
+    color: #FFFFFF;
+}
+
+.modal__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+    height: 28px;
+    background: transparent url('../img/icons/close.svg') no-repeat center;
+    border: none;
+    margin: 12px;
+    cursor: pointer;
+}
+
+.modal__title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-size: 1.357rem;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2.428rem;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 1.07rem;
+}
+
+.label--light {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    font-size: 1.285rem;
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.modal__input {
+    margin-bottom: 3.428rem;
+}
+
+.modal__input:last-of-type {
+    margin-bottom: 1rem;
+}
+
+.policy__checkbox {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.policy__checkbox:checked+.policy__label::before {
+    background: #FFCC69 url('../img/icons/check.svg') no-repeat center / 0.8rem;
+}
+
+.policy__label {
+    display: flex;
+    align-items: center;
+}
+
+.policy__label::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border: 1px solid #FFCC69;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-right: 0.64rem;
+}
+
+.modal__policy {
+    margin-bottom: 2.7rem;
+}
+
+.modal__button {
+    align-self: center;
+    color: white;
 }
