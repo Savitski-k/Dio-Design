@@ -1,7 +1,7 @@
 <?php
 
-$userName = $_GET['userName'];
-$userPhone = $_GET['userPhone'];
+$userName = $_POST['userName'];
+$userPhone = $_POST['userPhone'];
 
 require 'phpmailer/PHPMailer.php';
 require 'phpmailer/SMTP.php';
