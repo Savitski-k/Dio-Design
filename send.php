@@ -18,7 +18,8 @@ try {
     $mail->Username   = 'diodesignsite@gmail.com';               
     $mail->Password   = '80293064196';                             
     $mail->SMTPSecure = 'ssl';         
-    $mail->Port       = 465;                           
+    $mail->Port       = 465; 
+    $mail->CharSet = 'utf-8';                         
 
 
     $mail->setFrom('diodesignsite@gmail.com');
@@ -27,7 +28,7 @@ try {
     
     $mail->isHTML(true);                        
     $mail->Subject = 'Новая заявка с сайта Dio-Design';
-    $mail->Body    = "Имя: ${userName}, его телефон: ${userPhone}.";
+    $mail->Body    = "Имя: ${userName},  телефон: ${userPhone}.";
 
     $mail->send();
     header('Location: thank.html');
