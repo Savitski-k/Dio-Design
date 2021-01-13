@@ -125,6 +125,10 @@ body {
     margin-bottom: 42px;
 }
 
+.hero_avatar {
+    margin-left: 40px;
+}
+
 .card-descr {
     font-family: Roboto;
     font-style: normal;
@@ -749,4 +753,239 @@ details[open] .faq-item-descr-text {
 .modal__button {
     align-self: center;
     color: white;
+}
+
+
+
+/* adaptive  */
+
+@media(max-width: 1460px) {
+    .map-item-contacts {
+        left: 800px;
+    }
+}
+
+@media(max-width: 1250px) {
+    .map-item-contacts {
+        left: 600px;
+    }
+    .hero_avatar_img {
+        width: 500px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .hero-content {
+        flex-direction: column;
+    }
+    .hero_avatar_img {
+        width: 500px;
+    }
+    .hero_avatar {
+        margin-bottom: 35px;
+        margin-left: 0;
+        order: 0;
+    }
+    .hero-text {
+        order: 1;
+    }
+    .features-item {
+        flex-basis: 45%;
+    }
+    .swiper-slide {
+        flex-direction: column;
+    }
+    .review-img {
+        margin-bottom: 45px;
+        align-self: center;
+        max-width: 100%;
+    }
+    .map-item-contacts {
+        left: 400px;
+    }
+    .phone-block {
+        flex-direction: column;
+    }
+    .phone-img {
+        width: 500px;
+        align-self: center;
+        margin-bottom: 45px;
+        margin-left: 150px;
+    }
+    .phone-text {
+        align-items: center;
+    }
+    .faq-img {
+        display: none;
+    }
+}
+@media(max-width: 850px) {
+    .hero-header {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .hero-links {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .map-item-contacts {
+        left: 300px;
+    }  
+}
+@media(max-width: 745px) {
+    .map-item-map {
+        visibility: hidden;
+    }
+    .map-item-contacts {
+        left: 150px;
+    }  
+}
+@media(max-width: 690px) {
+    .map-item-contacts {
+        left: 120px;
+    }  
+    .faq-item-descr-text {
+        max-width: 95%;
+    }
+    .faq-quest {
+        max-width: 95%;
+    }
+    .faq-item-title {
+        max-width: 95%;
+    }
+}
+@media(max-width: 600px) {
+    .map-item-contacts {
+        left: 20px;
+    }
+    .hero_avatar_img {
+        width: 300px;
+    }
+
+    .features-item {
+        flex-basis: 100%;
+    }
+    .phone-img {
+        width: 300px;
+        margin: 0;  
+    }
+    .map {
+        margin-top: 20px;
+    }
+    .footer-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .footer-link {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 510px) {
+    .descr-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 95%;
+    }
+    .footer-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .footer-link {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .map-item-contacts {
+        left: 5px;
+    }
+    .faq-item-title-text {
+        max-width: 90%;
+        text-align: center;
+    }
+    .hero-cards {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .hero-card {
+        flex-basis: 90%;
+    }
+    .hero-button {
+        margin-top: 130px;
+    }
+    .phone-block {
+        padding-top: 5px;
+    }
+    section {
+        padding: 10px 10px 10px 10px;
+    }
+    .hero {
+        padding: 20px;
+    }
+    .products {
+        padding: 20px;
+    }
+    .features {
+        padding: 20px;
+    }
+    .hero-links {
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+    }
+    .link {
+        margin-bottom: 5px;
+    }
+    .hero-header {
+        margin: 20px;
+    }
+    .tel {
+        margin-right: 165px;
+        margin-left: 0;
+    }
+    .img-logo-footer {
+        margin-top: 20px;
+    }
+}
+@media(max-width: 440px) {
+    .tel {
+        margin: 0;
+    }
+    .hero-cards {
+        width: 100%;
+        height: 100%;
+    }
+    .hero-button {
+        margin-top: 30px;
+    }
+    .hero-title {
+        text-align: center;
+    }
+    .map-item-contacts {
+        max-width: 100%;
+        text-align: center;
+        left: auto;
+    }
+    .map {
+        padding: 0;
+    }
+    .review {
+        padding: 20px;
+    }
+    .hero_avatar_img {
+        width: 210px;
+    }
+    .hero_avatar {
+        margin-bottom: 10px;
+    }
+    .phone-img {
+        width: 200px;
+    }
+    .review-img {
+        max-width: 100%;
+    }
 }
