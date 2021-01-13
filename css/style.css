@@ -755,8 +755,6 @@ details[open] .faq-item-descr-text {
     color: white;
 }
 
-
-
 /* adaptive  */
 
 @media(max-width: 1460px) {
@@ -819,6 +817,7 @@ details[open] .faq-item-descr-text {
         display: none;
     }
 }
+
 @media(max-width: 850px) {
     .hero-header {
         flex-wrap: wrap;
@@ -830,20 +829,22 @@ details[open] .faq-item-descr-text {
     }
     .map-item-contacts {
         left: 300px;
-    }  
+    }
 }
+
 @media(max-width: 745px) {
     .map-item-map {
         visibility: hidden;
     }
     .map-item-contacts {
         left: 150px;
-    }  
+    }
 }
+
 @media(max-width: 690px) {
     .map-item-contacts {
         left: 120px;
-    }  
+    }
     .faq-item-descr-text {
         max-width: 95%;
     }
@@ -854,6 +855,7 @@ details[open] .faq-item-descr-text {
         max-width: 95%;
     }
 }
+
 @media(max-width: 600px) {
     .map-item-contacts {
         left: 20px;
@@ -861,13 +863,12 @@ details[open] .faq-item-descr-text {
     .hero_avatar_img {
         width: 300px;
     }
-
     .features-item {
         flex-basis: 100%;
     }
     .phone-img {
         width: 300px;
-        margin: 0;  
+        margin: 0;
     }
     .map {
         margin-top: 20px;
@@ -882,7 +883,28 @@ details[open] .faq-item-descr-text {
         margin-bottom: 10px;
         margin-top: 20px;
     }
+    .modal__dialog {
+        max-width: 90%;
+        max-height: 100%;
+    }
+    .modal__title {
+        font-family: Playfair Display;
+        font-style: normal;
+        font-size: 0.957rem;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 2.428rem;
+    }
+    .input {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        font-size: 0.985rem;
+        color: rgb(216, 216, 216);
+        padding: 0.5rem 0;
+    }
 }
+
 @media(max-width: 510px) {
     .descr-container {
         display: flex;
@@ -951,6 +973,7 @@ details[open] .faq-item-descr-text {
         margin-top: 20px;
     }
 }
+
 @media(max-width: 440px) {
     .tel {
         margin: 0;
