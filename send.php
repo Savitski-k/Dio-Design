@@ -15,15 +15,15 @@ try {
     $mail->isSMTP();                                          
     $mail->Host       = 'smtp.gmail.com';                  
     $mail->SMTPAuth   = true;                                  
-    $mail->Username   = 'diodesignsite@gmail.com';               
+    $mail->Username   = 'diodesign.by@gmail.com';               
     $mail->Password   = '80293064196';                             
     $mail->SMTPSecure = 'ssl';         
     $mail->Port       = 465; 
     $mail->CharSet = 'utf-8';                         
 
 
-    $mail->setFrom('diodesignsite@gmail.com');
-    $mail->addAddress('savitski.k@mail.ru');    
+    $mail->setFrom('diodesign.by@gmail.com');
+    $mail->addAddress('diodesign.by@gmail.com');    
 
     
     $mail->isHTML(true);                        
