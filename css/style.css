@@ -27,6 +27,19 @@ body {
     margin-bottom: 115px;
 }
 
+.img_logo {
+    margin-top: 5px;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    -webkit-transition: all 0.1s ease-out;
+}
+
+.img_logo:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
 .link {
     position: relative;
     color: black;
@@ -54,6 +67,10 @@ body {
     transform: scaleX(1);
 }
 
+.link:hover {
+    font-size: 20px;
+}
+
 .tel {
     color: black;
     margin-left: 27px;
@@ -62,6 +79,10 @@ body {
     line-height: 19px;
     text-decoration: none;
     text-shadow: -1px 2px 5px rgba(150, 150, 150, 1);
+}
+
+.tel:hover {
+    font-size: 20px;
 }
 
 .hero-content {
@@ -602,6 +623,8 @@ details[open] .faq-item-descr-text {
 
 .footer {
     background-color: #72758E;
+    height: 140px;
+    display: flex;
 }
 
 .footer-block {
